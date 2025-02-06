@@ -1,7 +1,5 @@
 # Cloud-Operations-course
 
-## Amazon Q questions and answers:
-
 ### Question: How to create an ec2 instance that uses instance store?
 
 ### Answer:
@@ -21,7 +19,7 @@ To create an EC2 instance that uses instance store, you'll need to follow a seri
    - Note that not all instance types support instance store, so choose carefully
 
 4. **Select an Instance Type**
-   - Choose an instance type that supports instance store volumes
+   - Choose an instance type that supports instance store volumes -> The following instances support instance store volumes that use non-NVMe SSDs to deliver high random I/O performance: C3, I2, M3, R3, and X1. 
    - Pay attention to the instance store capacity listed for each type
 
 5. **Configure Instance Details**
@@ -30,7 +28,7 @@ To create an EC2 instance that uses instance store, you'll need to follow a seri
 
 6. **Add Storage**
    - In the "Add Storage" section, you'll see the available instance store volumes
-   - These volumes are automatically attached and don't require manual configuration
+   - These volumes are automatically attached and don't require manual configuration -> mount target is /mnt
    - Note that the number and size of instance store volumes depend on the instance type
 
 7. **Add Tags (Optional)**
