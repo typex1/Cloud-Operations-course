@@ -60,7 +60,11 @@ Remember, instance store provides temporary block-level storage. The data on ins
 Always follow security best practices when setting up your EC2 instances, including using the principle of least privilege for IAM roles and security groups. Test your setup in a non-production environment before deploying to production.
 
 By following these steps, you'll have successfully created an EC2 instance that uses instance store for temporary, high-performance block-level storage.
-Sources
+
+Sources:
+
 [1] [Add instance store volumes to an EC2 instance - Amazon Elastic Compute Cloud] (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/add-instance-store-volumes.html)
+
 [3] [Add instance store volumes to an EC2 instance during launch - Amazon Elastic Compute Cloud] (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/adding-instance-storage-instance.html)
+
 [6] [Instance store temporary block storage for EC2 instances - Amazon Elastic Compute Cloud] (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html)
